@@ -1,11 +1,18 @@
-import React from 'react';
+import React , { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './App.css';
+
 //import ReactDOM from 'react-dom';
 //import App from './App';
-import PrimarySearchAppBar from './Demo';
+//import PrimarySearchAppBar from './Demo';
 import SpacingGrid from './SpacingGrid';
-import end from './components';
+//import Corousel from './Corousel';
+import Top from './Header';
+import logo from "./logo.png";
+import './photo.css';
+import Basic from './Basic';
+import Coding from './Coding';
+import './HeaderLogo.css';
+
 
 //import SimpleTable from './Tables';
 //SpacingGrid();
@@ -14,23 +21,24 @@ import end from './components';
 //import * as serviceWorker from './serviceWorker';
 
 
-
-
-         function App() {
+         class App extends React.Component {
+            render(){
             return (
               <div>
-                 <PrimarySearchAppBar />
-                <h1 style={{}}>FirstTech</h1>
-                <h2 style={{}}>Your Place to Learn</h2>
-                <h3 style={{}}>Tutorials Library</h3>
+                
+                 <Top />
+                <div class = "HeaderLogo"> <img src={logo} width = '250px' height = '250px' /></div>
+                <h3 style={{textAlign:"center", padding:30, backgroundColor: '#F0EFEF', marginTop:'10px', marginBottom:'10px', fontFamily:'Serif'}}>Tutorials Library</h3>
                 <SpacingGrid />
-                <h4 style={{}}>Coding Arena</h4>
-                <footer />
+                <h4 style={{textAlign:"center", padding:30, backgroundColor: '#F0EFEF', marginTop:'10px', marginBottom:'10px', fontFamily:'Serif'}}>Coding Arena</h4>
+                <Coding />
+                <Basic />
                
                 
               </div>
             );
           }
+         }
 
          
    
