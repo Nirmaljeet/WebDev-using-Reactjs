@@ -11,7 +11,7 @@ const Code = () => {
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title" style={{textAlign:'center', padding:'30', backgroundColor: '#F0EFEF', marginTop:'10px', marginBottom:'10px', fontFamily:'Serif'}}> Coding Platform for your Website</h5>
-                        <a href="#" class="btn btn-primary" style={{textAlign:'center', padding:'30',  marginTop:'5px', marginBottom:'10px',fontFamily:'Serif' }}>How it works?</a>
+                        <a href="sorry.html" class="btn btn-primary" style={{textAlign:'center', padding:'30',  marginTop:'5px', marginBottom:'10px',fontFamily:'Serif' }} role="Button">How it works?</a>
                         <p class="card-text"></p>
                         <img src = {image } width = '330px' height = '280px'  />
                     </div>

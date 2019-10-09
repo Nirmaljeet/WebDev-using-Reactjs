@@ -1,14 +1,22 @@
 import React ,{ Component }from 'react';
+// import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const Base = () => {
     return(
-        <div class="row">
+                <div class="row">
             <div class="col-sm-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title" style={{fontFamily:'Serif'}}>About Us</h5>
                         <p class="card-text" style={{fontFamily:'Serif'}}>We are a Team of fun-loving programmers :)</p>
-                        <a href="#" class="btn btn-primary" style={{fontFamily:'Serif'}}>Want to know us?</a>
+                        {/* <div>
+                            <BrowserRouter>
+                                <Route path="C:\Users\nirma\Desktop\website\src\about.html">
+                                    <link path="/about">About Us</link>
+                                </Route>
+                            </BrowserRouter>
+                        </div> */}
+                        <a href="#"  class="btn btn-primary" style={{fontFamily:'Serif'}}>Want to know us?</a>
                     </div>
                 </div>
             </div>
